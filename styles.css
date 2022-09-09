@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  font-size: 16px;
+  padding: 13px 0;
+  width: 300px;
+  /* parent selector */
+}
+input:focus {
+  outline: none;
+}
+input[type=text] {
+  margin: 0 0 0 5px;
+  /* giving a lighter color to input text*/
+  color: #464646;
+}
+input[type=submit] {
+  border-width: 0px;
+  margin: 20px;
+  width: 185px;
+  font-size: 14px;
+  background-color: transparent;
+}
+input[type=submit]:hover {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+input.blue-button {
+  background-color: dodgerblue;
+  color: white;
+  font-size: smaller;
+  max-width: 200px;
+  border-radius: 0px;
+  border: 1px solid #156bbd;
+  float: right;
+  padding: 10px 2px;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar, .navbar-link, .navbar-adv-logo, .navbar-adv {
+  display: flex;
+  align-items: center;
+}
+.navbar a, .navbar-link a, .navbar-adv-logo a, .navbar-adv a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.navbar-adv {
+  background-color: #f1f1f1;
+  height: 50px;
+}
+.navbar-adv-logo {
+  padding: 10px;
+}
+.navbar-adv-logo img {
+  height: 30px;
+}
+.navbar-link {
+  margin-left: auto;
+}
+
+.titbar {
+  margin: 30px 10px;
+}
+.titbar label {
+  color: #d93025;
+  font-size: 20px;
+  margin: 50px 30px;
+}
+
+.line {
+  border-bottom: solid 1px #d6d6d6;
+}
+
+.search-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+.search-con .search-fld {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15px;
+  margin: 10px;
+  border-radius: 25px;
+  border: 1px solid #afafaf;
+}
+.search-con .search-fld input {
+  border-radius: 25px;
+  border: none;
+}
+.search-con .logo-subtxt {
+  position: relative;
+  left: 110px;
+  top: -18px;
+  color: #4285f4;
+}
+
+.adv-search-con {
+  margin: 50px 40px;
+}
+.adv-search-con label {
+  display: inline-block;
+  font-size: 20px;
+  width: 16%;
+}
+.adv-search-con .whitespace {
+  display: inline-block;
+  width: 50%;
+}
+.adv-search-con .form-group {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+.adv-search-con .form-group label {
+  font-size: 14px;
+  width: 16%;
+}
+.adv-search-con .form-group input[type=text] {
+  padding: 2px 0;
+  width: 49%;
+}
+.adv-search-con .form-group .clarification {
+  font-size: 11px;
+  width: 30%;
+  margin-left: 1%;
+}
+.adv-search-con .form-group .clarification .monospace {
+  font-family: monospace;
+}
+.adv-search-con .form-group .right-align {
+  width: 50%;
+}
+
+/*# sourceMappingURL=styles.css.map */
