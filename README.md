@@ -1,6 +1,6 @@
-The first assignment of CS50 Web Programming: a simple clone of Google Search, Google Advanced Search and Google Images purely made with HTML and SCSS.
+# A simple clone of Google Search, Google Images, and Google Advanced Search purely developed with HTML and SCSS.
 
-Your website must meet the following requirements:
+The website meets the following requirements:
 
 Your website should have at least three pages: one for regular Google Search (which must be called index.html), one for Google Image Search, and one for Google Advanced Search.
 On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
